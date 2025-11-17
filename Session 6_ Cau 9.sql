@@ -14,9 +14,6 @@ create table DocGia(
     SoDienThoai varchar(15) unique
 );
 
-select distinct SoDienThoai
-from DocGia;
-
 insert into TacGia(TenTacGia, QuocTich)
 values ('Nguyễn Nhật Ánh', 'Việt Nam'),
 ('J.K. Rowling', 'Anh'),
