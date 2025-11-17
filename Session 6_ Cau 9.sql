@@ -108,5 +108,5 @@ select * from PhieuMuon
 where MaDocGia = 1; 
 
 select * from PhieuMuon
-where NgayTra = null;
+where NgayTra is null;
 
